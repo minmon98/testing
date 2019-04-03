@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/a_Lp chng mnh
 
 WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/div_Messager'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Hc liu - Sch Mm/textarea_s              s_message_content'), '   hello hi    ')
+WebUI.setText(findTestObject('Object Repository/Page_Hc liu - Sch Mm/textarea_s              s_message_content'), '   s    s     ')
 
 WebUI.click(findTestObject('Object Repository/Page_Hc liu - Sch Mm/i_Gi_fa fa-paper-plane'))
 
