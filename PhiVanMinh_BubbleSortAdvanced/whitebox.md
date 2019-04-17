@@ -25,22 +25,23 @@ Repo: https://github.com/TheAlgorithms/C/blob/master/sorting/OtherBubbleSort.c
 13	}
 ```
 ## Bước 1: Tạo đồ thị của hàm:
-![](CFG.png)
+![](CFGNew.png)
+
 ## Bước 2: Liệt kê các đường đi:
-1, 1 &rarr; 2 &rarr; 13 &rarr; 14 </br>
-2, 1 &rarr; 2 &rarr; 13 &rarr; 15 </br>
-3, 1 &rarr; 2 &rarr; 4 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 4 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 4 &rarr; 10 &rarr; 11 &rarr; 2 &rarr; 13 &rarr; 14 </br>
-4, 1 &rarr; 2 &rarr; 4 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 4 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 4 &rarr; 10 &rarr; 11 &rarr; 2 &rarr;x  13 &rarr; 15 </br>
+1, 1 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 12 </br>
+2, 1 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 4 &rarr; 12 </br>
+3, 1 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 4 &rarr; 12 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 4 &rarr; 12 </br>
+4, 1 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 4 &rarr; 12 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 4 &rarr; 12 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 4 &rarr; 12</br>
+
 ## Bước 3: Xây dựng điều kiện đường đi, tính các giá trị kiểm thử thỏa mãn
 ### Đường đi 1:
-Để 2 &rarr; 13 thì 2 phải có giá trị false &rarr; k > 9 false &rarr; k &leqslant; 9 (1) </br>
-Để 13 &rarr; 14 thì 13 phải có giá trị true &rarr; k == 1 true &rarr; k = 1  (2)</br>
-(1) & (2) &rarr; k = 1
+Để 4 &rarr; 12 thì 0 < n-1 phải có giá trị false &rarr; n = 1, khi đó isSort = 0 (false) &rarr; Kết thúc </br>
 
 ### Đường đi 2:
-Để 2 &rarr; 13 thì 2 phải có giá trị false &rarr; k > 9 false &rarr; k &leqslant; 9 (1) </br>
-Để 13 &rarr; 15 thì 13 phải có giá trị false &rarr; k == 1 false &rarr; k != 1  (2)</br>
-(1) & (2) &rarr; 1 &lt; k  &leqslant; 9
+Để 4 &rarr; 5 thì 0 < n-1 phải có giá trị true &rarr; n > 1  <-> n >= 2 (1)</br>
+Để 5 &rarr; 4 thì arraySort[i] > arraySort[i+1] phải có giá trị false (2)</br>
+Để 4 &rarr; 12 thì 1 < n-1 phải có giá trị false &rarr; n <= 2, khi đó isSort = 0 (false) &rarr; Kết thúc (3)</br> 
+(1) & (2) & (3) &rarr; n = 2 </br>
 
 ### Đường đi 3:
 - Để 2 &rarr; 4 thì 2 phải có giá trị true &rarr; k > 9 true &rarr; k > 9 (1) </br>
