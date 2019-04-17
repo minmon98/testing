@@ -25,7 +25,7 @@ Repo: https://github.com/TheAlgorithms/C/blob/master/sorting/OtherBubbleSort.c
 13	}
 ```
 ## Bước 1: Tạo đồ thị của hàm:
-![](CFG.PNG)
+![](CFG.png)
 ## Bước 2: Liệt kê các đường đi:
 1, 1 &rarr; 2 &rarr; 13 &rarr; 14 </br>
 2, 1 &rarr; 2 &rarr; 13 &rarr; 15 </br>
