@@ -28,5 +28,4 @@ Go: [http://localhost:3000](http://localhost:3000)
 
 ## 4. Youtube Tutorial
 
-[https://www.youtube.com/watch?v=D2ZmnQ_EQMY&t=215s - Automated Accessibility Testing Tool (AATT) | Team 2
-](https://www.youtube.com/watch?v=D2ZmnQ_EQMY&t=215s)
+[https://www.youtube.com/watch?v=D2ZmnQ_EQMY&t=215s](https://www.youtube.com/watch?v=D2ZmnQ_EQMY&t=215s) -  - Automated Accessibility Testing Tool (AATT) | Team 2
