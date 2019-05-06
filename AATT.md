@@ -8,8 +8,8 @@ AATT includes HTML CodeSniffer, Axe and Chrome developer tool with Express and P
 
 ## 2. Setup And Config
 
-1. NodeJS from [](http://nodejs.org)
-2. GIT from [](http://git-scm.com/downloads)
+1. NodeJS from [http://nodejs.org](http://nodejs.org)
+2. GIT from [http://git-scm.com/downloads](http://git-scm.com/downloads)
 
-## 3. Demo Test Websites [](http://hoclieu.sachmem.vn)
+## 3. Demo Test Websites [http://hoclieu.sachmem.vn](http://hoclieu.sachmem.vn)
 
