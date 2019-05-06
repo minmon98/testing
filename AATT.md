@@ -26,6 +26,7 @@ Go: [http://localhost:3000](http://localhost:3000)
 2. Choose one in Axe|Chrome|HTML Code Sniffer
 3. Click Test Page
 
-## 4. Tutorial
+## 4. Youtube Tutorial
 
-[video](https://www.youtube.com/watch?v=D2ZmnQ_EQMY&t=215s)
+[https://www.youtube.com/watch?v=D2ZmnQ_EQMY&t=215s - Automated Accessibility Testing Tool (AATT) | Team 2
+](https://www.youtube.com/watch?v=D2ZmnQ_EQMY&t=215s)
