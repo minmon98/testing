@@ -11,19 +11,19 @@ AATT includes HTML CodeSniffer, Axe and Chrome developer tool with Express and P
 1. NodeJS from [http://nodejs.org](http://nodejs.org)
 2. GIT from [http://git-scm.com/downloads](http://git-scm.com/downloads)
 
-$ git clone https://github.com/paypal/AATT.git
-$ cd AATT
-$ sudo npm install
-$ git submodule init
-$ git submodule update
-$ DEBUG=AATT* http_port=3000 node app.js
+* git clone https://github.com/paypal/AATT.git
+* cd AATT
+* sudo npm install
+* git submodule init
+* git submodule update
+* DEBUG=AATT* http_port=3000 node app.js
 
 ## 3. Demo Test Websites [http://hoclieu.sachmem.vn](http://hoclieu.sachmem.vn)
 
 Go: [http://localhost:3000](http://localhost:3000)
 
 1. At page URL, enter: [http://hoclieu.sachmem.vn](http://hoclieu.sachmem.vn)
-2. Chooose one in Axe|Chrome|HTML Code Sniffer
+2. Choose one in Axe|Chrome|HTML Code Sniffer
 3. Click Test Page
 
 ## 4. Tutorial
